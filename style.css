@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* SEARCH CHARACTER*/
+
+.search-contenedor h2{
+    margin-bottom: 10px;
+}
+
+.search-contenedor .cargando{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.personaje-buscado{
+    width: 80%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure{
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+}
+figure figcaption{
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+}
+figure .contenedor-img{
+    width: 200px;
+    height: 200px;
+}
+figure .contenedor-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+figure p{
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+}
+ 
+
+/* Botones */
+.lista-Personajes{
+    margin-top: 50px;
+    width: 100%;
+}
+.lista-Personajes .personajes-botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.personajes-botones .all{
+    margin-right: 20px;
+}
+.lista-Personajes .loading{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+/* ALL CHARACTERS */
+
+.contenido{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* JUEGO */
+
+.juego-contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.juego-contenedor .btns-jugar-rendirse{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.juego-contenedor .btn-jugar{
+    margin-right: 30px;
+}
+.show-juego{
+    display: flex; 
+    flex-direction: column;
+}
+.show-juego article{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.show-juego article .contenedor-imagen{
+    width: 300px;
+    height: 250px;
+}
+.show-juego article .contenedor-imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.show-juego article .contenedor-texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}

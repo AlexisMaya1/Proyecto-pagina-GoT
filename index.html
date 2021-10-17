@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+    <div class="search-contenedor">
+        <h2>Personajes de Game of Thrones</h2>   
+        <label for="searchCha">Busca tu personaje favorito:</label>
+        
+        <input class='searchCha' id="searchCha" type="search" placeholder="Escribe tu personaje...">
+        <div class="cargando"></div>
+    </div>
+</header>
+
+<div class="personaje-buscado"></div>
+
+
+
+<section class="lista-Personajes">
+        <div class="personajes-botones">
+            <button type="button" class="all" id="all">Mostrar</button>
+        </div>
+        <div class="loading"></div>
+        
+</section>
+    
+    <div class="contenido"></div>
+    
+    <section class="juego-contenedor">
+        <div class="btns-jugar-rendirse">
+            <div>
+                <h3>Juego de Game of Thrones</h3>
+                <ul>
+                    <li>Se Elegiran 5 personajes al azar</li>
+                    <li>Deberas escribir el nombre solo o con apellidos</li>
+                    <li>Al final se mostrara tu resultado y las respuestas correctas</li>
+                </ul>
+            </div>
+            <button class="btn-jugar" type="button">Empezar a jugar</button>
+        </div>
+        <div class="load"></div>
+        <div class="show-juego"></div>
+    </section>
+   
+
+ <script src="./search-Cha.js"></script>
+<script src="./allCha.js"></script>
+<script src="./juego.js"></script>
+
+
+</body>
+</html>
